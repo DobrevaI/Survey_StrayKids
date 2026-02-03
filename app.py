@@ -15,19 +15,19 @@ if st.button("Check q2"):
     st.error("Ohhhh that would be incorrect")
 ans3=st.text_input("Q3: Which member has three cats(Soonie, Doongie, Dory)?")
 if st.button("Check q3"):
-  if ans3=="Lee Know" or "Lee Minho" or "Lino":
+  if ans3=="Lee Know" or ans3=="Lee Minho" or ans3=="Lino":
     st.success("That is correct")
   else:
     st.error("Ohhhh that would be incorrect")
 ans4=st.text_input("Q4: Who is the main rapper?")
 if st.button("Check q4"):
-  if ans4=="Han" or "Han Jisung" or "J.One":
+  if ans4=="Han" or ans4=="Han Jisung" or ans4=="J.One":
     st.success("That is correct")
   else:
     st.error("Ohhhh that would be incorrect")
 ans5=st.text_input("Q5: Who is the youngest?")
 if st.button("Check q5"):
-  if ans5=="I.N" or "IN" or "in" or "Jeongin":
+  if ans5=="I.N" or ans5=="IN" or ans5=="in" or ans5=="Jeongin":
     st.success("That is correct")
   else:
     st.error("Ohhhh that would be incorrect")
