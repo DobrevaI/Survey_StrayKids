@@ -49,7 +49,7 @@ if st.button("Check q8"):
     st.success("That is correct")
   else:
     st.error("Ohhhh that would be incorrect")
-ans9=st.text_input("Q9: Who is the the "protein king" of the group?")
+ans9=st.text_input("Q9: Who is the the 'protein king' of the group?")
 if st.button("Check q9"):
   if ans9=="Changbin" or ans9=="SpearB":
     st.success("That is correct")
