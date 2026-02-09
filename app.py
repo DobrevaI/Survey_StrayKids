@@ -39,7 +39,7 @@ if st.button("Check q6"):
     st.error("Ohhhh that would be incorrect")
 ans7=st.text_input("Q7: Who has had a buzz cut?")
 if st.button("Check q7"):
-  if ans5=="Hyunjin":
+  if ans7=="Hyunjin":
     st.success("That is correct")
   else:
     st.error("Ohhhh that would be incorrect")
